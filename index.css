@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #1ed760;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+}
+
+.nav-menu{
+    width: 543.57px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 17px;
+}
+
+.nav-item{
+    font-weight: 700;
+    color: white;
+}
+
+.main{
+    height: 968px;
+    background: rgb(41, 65, 171);
+}
+
+.footer{
+    height: 530px;
+    background: black;
+}
