@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
 }
 
 a{
@@ -31,7 +32,55 @@ nav{
 
 main{
     height: 968px;
-    background: rgb(41, 65, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+
+.headline{
+    font-size: 146px;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+    color: #1ed760;
+    font-weight: 900;
+}
+
+.headline-first{
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline{
+    padding-bottom: 40px;
+    color: #1ed760;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-area{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-main{
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 500px;
+    color: #2941ab;
+    font-size: inherit;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-main:hover{
+    transform: scale(1.07);
+    background-color: #2de26d;
 }
 
 footer{
